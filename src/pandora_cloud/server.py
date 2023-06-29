@@ -25,7 +25,7 @@ class ChatBot:
         self.login_local = getenv('LOGIN_LOCAL', True)
         self.log_level = logging.DEBUG if debug else logging.WARN
         self.api_prefix = getenv('CHATGPT_API_PREFIX',
-                                 'https://ai.fakeopen.com')
+                                 'https://chat-api.haah.net')
 
         hook_logging(level=self.log_level,
                      format='[%(asctime)s] %(levelname)s in %(module)s: %(message)s')
