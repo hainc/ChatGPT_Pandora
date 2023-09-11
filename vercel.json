@@ -9,7 +9,7 @@
   "rewrites": [
     {
       "source":"/api/:path((?!auth|accounts).*)",
-      "destination":"https://ai.fakeopen.com/api/:path*"
+      "destination":"https://proxy-20230911.fakegpt.org/api/:path*"
     },
     {
       "source":"/v1/:path(.*)",
